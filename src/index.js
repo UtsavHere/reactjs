@@ -5,6 +5,7 @@ import App from "./App";
 import Helloworld from "./Helloworld";
 import Subject from "./Subject";
 import Dcf from "./Dcf";   
+import Dcf02 from "./Dcf02";   
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -15,7 +16,8 @@ root.render(
       <App />
       <Helloworld />
       <Subject />
-      <Dcf />{" "}
+      <Dcf />
+      <Dcf02/>{" "}
     </>
   </React.StrictMode>
 );
